@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+        <script src="script.js" async defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="img-container" onclick="thing = true" ondblclick="turn()">
+                <div class="img360">
+                    <img id="myImg" src="bmw_images\pic_1.png" />
+                </div>
+            </div>
+            <div id="preload-imgs"></div>
+            <div id="buttons">
+                <div class="button-container">
+                    <div class="button" id="white"></div>
+                    <span id="white-desc">White</span>
+                </div>
+                <div class="button-container">
+                    <div class="button" id="black"></div>
+                    <span id="black-desc">Black</span>
+                </div>
+                <div class="button-container">
+                    <div class="button" id="orange"></div>
+                    <span id="orange-desc">Orange</span>
+                </div>
+                <div class="button-container">
+                    <div class="button" id="blue"></div>
+                    <span id="blue-desc">Blue</span>
+                </div>
+                <div class="button-container">
+                    <div class="button" id="green"></div>
+                    <span id="green-desc">Green</span>
+                </div>
+                <div class="button-container">
+                    <div class="button" id="metal"></div>
+                    <span id="metal-desc">Metal</span>
+                </div>
+            </div>
+            <div id="turn-speeds">
+                <button id="slow">Slow</button>
+                <button id="normal">Normal</button>
+                <button id="fast">Fast</button>
+                <button id="fastest">Fastest</button>
+            </div>
+        </div>
+    </body>
+</html>
